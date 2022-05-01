@@ -133,8 +133,4 @@ class Conjunto {
         System.out.println("}");
     }
 
-    void potencia() {
-        
-    }
-
 }
