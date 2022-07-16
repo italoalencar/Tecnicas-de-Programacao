@@ -1,0 +1,55 @@
+
+#title {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 0.5, 0, 0, 4);
+}
+#content{
+    -fx-background-color: linear-gradient(to top, #2B4C7E, #3c6db7);
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 1, 1, 2, 0);
+}
+
+.inputField {
+    -fx-background-radius: 10, 10;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 1, 0, 0, 4);
+}
+
+.inputField:focused{
+    -fx-focus-color: transparent;
+}
+
+.botao {
+    -fx-background-radius: 5, 5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 2);
+    -fx-background-color: linear-gradient(to top, #606D80, #bac6dc);
+    -fx-pref-height: 40px;
+    -fx-pref-width: 80px;
+}
+
+
+.botao:hover {
+    -fx-background-color: #8191a9;
+}
+.botao:pressed {
+    -fx-background-color: linear-gradient(to top, #414956, #5f6675);
+}
+
+#criarConta {
+    -fx-pref-height: 35px;
+    -fx-pref-width: 90px;
+}
+
+
+#backgroundLogin{
+    -fx-background-image: url('../images/login.jpg');
+    -fx-background-repeat: no-repeat;
+    -fx-background-size: cover;
+    -fx-background-position: center center;
+}
+
+
+
+
+
+
+

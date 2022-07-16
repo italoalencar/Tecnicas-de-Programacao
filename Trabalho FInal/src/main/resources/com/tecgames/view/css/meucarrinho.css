@@ -1,0 +1,81 @@
+#divheader {
+    -fx-background-color: #D9D9D9;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 2);
+}
+
+#divcontent {
+    -fx-background-color: #2b4c7e;
+}
+
+#divcontent2 {
+    -fx-background-color: #2b4c7e;
+}
+
+#resumo {
+    -fx-background-color: #D9D9D9;
+}
+
+#cardcarrinho {
+    -fx-background-color: #D9D9D9;
+}
+
+#imagemjogo {
+    -fx-background-color: #5e5e5e;
+}
+
+
+#scrollPane {
+    -fx-background-color: #2b4c7e;
+}
+
+#resumo {
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 2);
+    -fx-background-radius: 5,5;
+}
+
+#comprar {
+    -fx-text-fill: White;
+    -fx-background-radius: 5,5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 2);
+    -fx-background-color: linear-gradient(to bottom right, #2b4c7e, #698fd7);
+}
+
+#comprar:hover {
+     -fx-background-color: #7abde1;
+}
+
+#comprar:pressed {
+    -fx-background-color: linear-gradient(to bottom right,  #5f8cce , #2b4c7e);
+}
+
+#removerjogocarrinho {
+    -fx-text-fill: White;
+    -fx-background-radius: 5,5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 2);
+    -fx-background-color: linear-gradient(to bottom right, #2b4c7e, #698fd7);
+}
+
+#removerjogocarrinho:hover{
+    -fx-background-color: #7abde1;
+}
+
+#removerjogocarrinho:pressed{
+    -fx-background-color: linear-gradient(to bottom right, #5f8cce , #2b4c7e);
+}
+
+
+
+#botaoloja {
+    -fx-text-fill: Black;
+    -fx-background-radius: 5,5;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.5), 10, 0, 0, 2);
+    -fx-background-color: linear-gradient(to bottom right, #b1c6ee, #698fd7);
+}
+
+#botaoloja:hover{
+    -fx-background-color: #5898e1;
+}
+
+#botaoloja:pressed{
+    -fx-background-color: linear-gradient(to bottom right, #5f8cce , #b1c6ee);
+}
